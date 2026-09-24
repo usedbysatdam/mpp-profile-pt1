@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesan - Website Ku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>Selamat Datang di Website Ku</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="pesan.html" class="active">Pesan</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    <img class="hero" src="gambar/potret.jpg" alt="Banner">
+    <div class="content">
+      <div class="left">
+        <div class="box-title">Informasi Pesan</div>
+        <div class="box-body">
+          <p>Silakan kirim pesan, saran, atau pertanyaan melalui formulir di samping.</p>
+          <p>Pesan akan dibalas maksimal 1x24 jam.</p>
+        </div>
+      </div>
+      <div class="center">
+        <div class="box-title">Kirim Pesan / Guestbook</div>
+        <div class="box-body">
+          <form>
+            <label>Nama Lengkap:<input type="text" placeholder="Nama lengkap" required></label>
+            <label>Email:<input type="email" placeholder="Email aktif" required></label>
+            <label>Subjek:<input type="text" placeholder="Subjek pesan"></label>
+            <label>Pesan:<textarea rows="6" placeholder="Tulis pesan Anda di sini..." required></textarea></label>
+            <button type="submit">Kirim Pesan</button>
+          </form>
+          <hr>
+          <h3>Pesan Terbaru</h3>
+          <div class="card"><p><b>Budi S.</b> - Terima kasih, website ini sangat membantu belajar CSS layout!<br><small>2 jam lalu</small></p></div>
+          <div class="card"><p><b>Ani R.</b> - Tone biru lautnya menenangkan, good job!<br><small>5 jam lalu</small></p></div>
+          <div class="card"><p><b>Doni K.</b> - Request: tambahkan dark mode dong.<br><small>1 hari lalu</small></p></div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="box-title">Menu Lain</div>
+        <div class="box-body">
+          <ul class="side-list">
+            <li><a href="index.html">→ Beranda</a></li>
+            <li><a href="profil.html">→ Profil Saya</a></li>
+            <li><a href="kontak.html">→ Kontak Langsung</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>&copy;Copyright 2025</footer>
+  </div>
+</body>
+</html>
